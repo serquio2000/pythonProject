@@ -3,3 +3,4 @@ def suma_rec(n):
         return 1
     else:
          return n+ suma_rec(n-1)
+print(suma_rec(4))
